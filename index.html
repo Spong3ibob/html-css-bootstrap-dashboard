@@ -12,27 +12,31 @@
 <body>
     <header>
         <div class="row">
-            <div class="col-12">
-                <nav class="navbar bg-light">
-                    <div class="container-fluid">
-                        <img src="img/logo.svg" alt="" class="logo-lg">
-                        <img src="img/mobile-logo.png" alt="" class="logo-small">
-                      <form class="d-flex" role="search">
+            <div class="container-fluid">
+                <div class="col-auto">
+                    <img src="img/logo.svg" alt="" class="logo-lg">
+                    <img src="img/mobile-logo.png" alt="" class="logo-small">
+                </div>
+                <div class="col">
+                    <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder=" &#128269 Prova a cercare:Lezioni di Laravel" aria-label="Search">
-                      </form>
-                      <i class="fa-solid fa-list-ul icon-header"></i>
-                      <i class="fa-solid fa-question icon-header"></i>
-                      <i class="fa-solid fa-ellipsis-vertical icon-header"></i>
-                      <div class="dropdown">
-                        <i class="fa-solid fa-bell"  type="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </div>
+                    </form>
+                </div>   
+                <div class="col-auto icon">
+                    <div class="icon-header">      
+                        <i class="fa-solid fa-list-ul"></i>
+                        <i class="fa-solid fa-question"></i>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
                     </div>
-                  </nav>
+                    <div class="dropdown">
+                        <i class="fa-solid fa-bell icon-special"  type="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>   
             </div>
         </div>
     </header>

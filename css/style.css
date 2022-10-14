@@ -1,25 +1,34 @@
 header{
+    padding-top: 10px;
     height: 70px;
     background-color: #f8f9fa;
 }
 .logo-small{
     width: 50px;
-}
-.row{
-    align-items: center;
+    height: auto;
 }
 .d-flex{
-    width: calc(100% - 75px);
+    width: auto;
 }
 .container-fluid{
     background-color: white;
+    display: flex;
+    align-items: center;
 }
-.container-fluid :first-child i{
+.icon{
+    display: flex;
+}
+.icon-special{
     font-size: 25x;
     color: #ff8f00;
+    padding: 0 5px;
 }
 .icon-header{
     display: none;
+    color: black;
+}
+.icon-header i{
+    padding: 0 5px;
 }
 .logo-lg{
     display: none;
@@ -30,16 +39,16 @@ header{
         height: 50px;
         width: 150px;
         padding-right: 10px;
+        padding-left: 10px;
     }
     .d-flex{
-        width: calc(100% - 250px);
+        width: auto;
     }
     .logo-small{
         display: none;
     }
     .icon-header{
         display: block;
-        font-size: 25px;
-        color: black;
+        
     }
 }
