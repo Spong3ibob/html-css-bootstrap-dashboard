@@ -14,6 +14,32 @@ header{
 .container-fluid{
     background-color: white;
 }
-.container-fluid i{
+.container-fluid :first-child i{
     font-size: 25x;
+    color: #ff8f00;
+}
+.icon-header{
+    display: none;
+}
+.logo-lg{
+    display: none;
+}
+@media screen and (min-width:1200px){
+    .logo-lg{
+        display: block;
+        height: 50px;
+        width: 150px;
+        padding-right: 10px;
+    }
+    .d-flex{
+        width: calc(100% - 250px);
+    }
+    .logo-small{
+        display: none;
+    }
+    .icon-header{
+        display: block;
+        font-size: 25px;
+        color: black;
+    }
 }
