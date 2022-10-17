@@ -80,6 +80,7 @@ aside{
 .admin{
  margin-top: 600px;
 }
+/* responsive aside */
 @media screen and (min-width:1200px){
     aside{
         width: 270px;
@@ -88,12 +89,51 @@ aside{
         display: inline-block;
     }
 }
-
-
-
-
+/* main */
 main{
-    background-color: aquamarine;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    width: calc(100% - 70px);
+}
+.studenti{
+    background-color: #1c72e8;
+    color: white;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+.button-studenti{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 25px;
+    margin: 0 5px;
+}
+b{
+    font-size: 30px;
+}
+.studenti-online{
+    padding-top: 20px;
+}
+.numero-studenti{
+    font-size: 25px;
+}
+.app{ 
+    display: none;
+}
+@media screen and (min-width:1200px){
+    .studenti-online{
+        position: absolute;
+        right: 130px;
+        top: 90px;
+    }
+    .studenti{
+        height: 130px;
+    }
+    .plus{
+        display: none;
+    }
+    .app{
+        display: unset;
+    }
 }
