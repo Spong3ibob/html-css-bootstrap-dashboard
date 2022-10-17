@@ -77,6 +77,9 @@ aside{
 .text-visibility{
     display: none;
 }
+.admin{
+ margin-top: 600px;
+}
 @media screen and (min-width:1200px){
     aside{
         width: 270px;
