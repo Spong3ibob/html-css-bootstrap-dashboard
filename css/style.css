@@ -196,11 +196,39 @@ b{
         display: table-cell;
     }
 }
+.coldx{
+    width: calc(100% - 970px);
+}
 /* sezione todo  */
 .todo{
     margin: 25px 5px;
-    width: calc(100% - 970px);
 }
 .table{
     margin: 5px;
+}
+/* sezione grafico  */
+a{
+    padding: 5px;
+}
+/* sezione faq */
+.button-faq{
+    margin-left: 650px;
+}
+.button-faq1{
+    margin-left: 517px;
+}
+.button-faq2{
+    margin-left: 610px;
+}
+/* media screen lg */
+@media screen and (max-width:992px) {
+   .faq{
+    display: none;
+   } 
+   .todo{
+    display: none;
+   }
+   .grafico{
+    display: none;
+   }
 }
