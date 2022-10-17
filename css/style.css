@@ -1,3 +1,4 @@
+
 /* header */
 header{
     padding-top: 10px;
@@ -94,6 +95,7 @@ main{
     max-width: 100%;
     width: calc(100% - 70px);
 }
+/* sezione studenti */
 .studenti{
     background-color: #1c72e8;
     color: white;
@@ -135,5 +137,58 @@ b{
     }
     .app{
         display: unset;
+    }
+}
+/* sezione classi */
+.row{
+    align-items: center;
+}
+.classi{
+    margin: 25px 10px;
+}
+.img-avatar{
+   height: 20px;
+}
+.btn-green{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.btn-yellow{
+    background-color: #ffc007;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.btn-azioni{
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0 1px;
+}
+.btn-azioni i{
+    color: gray;
+}
+.data{
+    display: none;
+}
+.roi{
+    display: none;
+}
+@media screen and (min-width:768px) {
+    .roi{
+        display: table-cell;
+    }
+}
+@media screen and (min-width:992px){
+    .data{
+        display: table-cell;
     }
 }
